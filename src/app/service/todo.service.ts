@@ -10,26 +10,7 @@ export class TodoService {
   todos: Todo[];
 
   constructor() {
-    this.todos = [
-      {
-        id: 1,
-        title: 'Learn Angular',
-        isCompleted: true,
-        date: new Date(),
-      },
-      {
-        id: 2,
-        title: 'Exercise',
-        isCompleted: true,
-        date: new Date(),
-      },
-      {
-        id: 3,
-        title: 'Complete Dinner',
-        isCompleted: false,
-        date: new Date(),
-      },
-    ];
+    this.todos = [];
    }
 
     getTodos() {
